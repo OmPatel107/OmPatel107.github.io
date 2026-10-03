@@ -603,6 +603,11 @@ nav.scrolled {
   gap: 4rem;
 }
 
+.skills-layout--3col {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
 .skill-group-title {
   font-size: 0.7rem;
   font-weight: 600;
@@ -842,6 +847,7 @@ footer p {
 
   .about-grid,
   .skills-layout,
+  .skills-layout--3col,
   .contact-layout { grid-template-columns: 1fr; gap: 2.5rem; }
 
   .hero-stats { gap: 1.5rem; }
